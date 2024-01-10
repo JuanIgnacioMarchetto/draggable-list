@@ -3,16 +3,22 @@
   flex-wrap: wrap;
   gap: 10px;
   padding: 20px;
+  margin-top: 15%;
 }
+body{
+  background: url(https://png.pngtree.com/thumb_back/fh260/background/20200731/pngtree-blue-carbon-background-with-sport-style-and-golden-light-image_371487.jpg);
 
+  background-size: cover;
+}
 .card {
   width: 100px;
   height: 100px;
-  background-color: #3498db;
-  color: #fff;
+  background-color: #126b34;
+  color: hsl(0, 32%, 17%);
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 5px;
+  border-radius: 18%;
+  border:darkblue solid 4px;
   cursor: grab;
 }
